@@ -1,0 +1,76 @@
+\documentclass[11pt, french]{article}
+
+\input{preamble.tex}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    
+    % Logos (penser à copier logo_ensicaen.png et logo_unicaen.png dans Report/Images)
+    \begin{figure}[h!]
+        \centering
+        % Minipage pour le premier logo (à gauche)
+        \begin{minipage}{0.25\textwidth}
+            \centering
+             \includegraphics[width=\linewidth]{Images/logo_ensicaen.png}
+        \end{minipage}
+		\hspace{1cm}
+        % Minipage pour le second logo (à droite)
+        \begin{minipage}{0.25\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Images/logo_unicaen.png}
+        \end{minipage}
+    \end{figure}
+
+    \vspace{1cm}
+    
+    {\Large \textbf{UNIVERSITÉ DE CAEN NORMANDIE}}\\[0.2cm]
+    {\large École Nationale Supérieure d'Ingénieurs de Caen}
+    
+    \vspace{2cm}
+    
+    {\huge \textbf{Lecture d'article (SOUPS)}}
+    
+    \vspace{0.5cm}
+    
+    {\Large \textbf{Aspects sociétaux de la sécurité}}
+    
+    \vspace{1cm}
+    
+    {\large Rapport de lecture d'un article de la conférence SOUPS}
+    
+    \vspace{2cm}
+    
+    {\Large \textbf{Auteurs :} Sébastien Léglise & /TODO/}
+
+    \vspace{0.8cm}
+    
+    {\Large \textbf{Date :} Avril 2026}
+    
+    \vspace{2cm}
+    
+    \textit{Document de travail — squelette sans contenu, à compléter.}
+    
+    \vfill
+    
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+% I. Introduction
+\input{parts/00_introduction.tex}
+
+% II. Méthodologie
+\input{parts/01_methodologie.tex}
+
+% III. Résultats
+\input{parts/02_resultats.tex}
+
+% IV. Conclusion
+\input{parts/03_conclusion.tex}
+
+\end{document}

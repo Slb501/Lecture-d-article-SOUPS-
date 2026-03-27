@@ -1,0 +1,55 @@
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=1in}
+\setlength{\headheight}{14pt}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xfrac}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows}
+
+% Couleurs personnalisées
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+\definecolor{codebackground}{rgb}{0.98,0.98,0.98}
+
+% Configuration des en-têtes et pieds de page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Université de Caen - Aspects sociétaux de la sécurité}}
+\fancyhead[R]{\textbf{Lecture d'article (SOUPS)}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Configuration des listings pour le code (au cas où)
+\lstset{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{codebackground},
+    breaklines=true,
+    frame=single,
+    frameround=tttt,
+    numbers=left,
+    numberstyle=\tiny,
+    keywordstyle=\color{darkblue}\bfseries,
+    commentstyle=\color{gray},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    language=bash
+}
+
+\title{\Huge \textbf{Lecture d'article (SOUPS)}}
+\author{\Large Sébastien Léglise}
+\date{\Large Mars 2026}
