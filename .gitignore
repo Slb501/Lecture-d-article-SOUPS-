@@ -2,4 +2,5 @@
 *.toc
 *.out
 *.aux
-
+*.nav
+*.snm
